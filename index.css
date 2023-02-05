@@ -198,6 +198,9 @@ body {
     font-size: 40px;
   }
 
+  .contactSection ul li {
+    font-size: 18px;
+  }
   .designerText {
     font-size: 70px;
   }
@@ -217,6 +220,9 @@ body {
   }
   .aboutMeHeading {
     font-size: 60px;
+  }
+  .projectheadingText {
+    font-size: 50px !important;
   }
   .about-us-para-2,
   .about-us-para-3,
@@ -282,8 +288,9 @@ body {
     font-size: 22px;
     line-height: 38px;
   }
-  .aboutMeHeading {
-    font-size: 60px;
+  .aboutMeHeading,
+  .projectheadingText {
+    font-size: 60px !important;
   }
   .about-us-para-2,
   .about-us-para-3,
@@ -341,4 +348,46 @@ body {
 
 .projectLink:hover {
   text-decoration: none !important;
+}
+
+/* Navbar animation */
+.navbar-toggler span {
+  display: block;
+  background-color: #121212;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+#small-line {
+  width: 15px;
+}
+.navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+.navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+.navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
 }
