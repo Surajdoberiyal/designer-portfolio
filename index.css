@@ -1,0 +1,318 @@
+body {
+  font-family: "Poppins";
+}
+.custom-container {
+  margin: 0px 60px;
+}
+.mainColor {
+  color: #e5a426 !important;
+  font-weight: 700;
+}
+.navbar-light .navbar-toggler-icon {
+  height: 20px !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='16' viewBox='0 0 18 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 8H1' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17 1H1' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17 15H1' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  border: none !important;
+  outline: none !important;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-700 {
+  font-weight: 700;
+}
+.font-size-24 {
+  font-size: 24px;
+}
+.font-size-22 {
+  font-size: 22px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.line-height-36 {
+  line-height: 36px;
+}
+.experienceContainer ul > li,
+.educationContainer ul > li {
+  list-style: none;
+}
+.experienceContainer ul > li::before,
+.educationContainer ul > li::before {
+  content: "⭐️";
+  margin-right: 15px;
+}
+
+.contactSection ul > li {
+  list-style: none;
+}
+.socialIcons {
+  height: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.socialIcons img {
+  padding: 0px 50px;
+}
+
+.phoneIcon::before {
+  content: "📞";
+  margin-right: 15px;
+}
+.emailIcon::before {
+  content: "📧";
+  margin-right: 15px;
+}
+.webIcon::before {
+  content: "🌍";
+  margin-right: 15px;
+}
+
+.nav-item::before {
+  content: "";
+}
+
+.linkText {
+  color: #121212;
+  text-decoration: none !important;
+}
+.linkText:hover {
+  color: #007bff;
+}
+.line {
+  margin: 30px 0px;
+  border: 0.5px solid #e5a426;
+}
+.heroText {
+  font-family: "Times New Roman";
+  font-style: italic;
+  color: #121212 !important;
+  font-size: 80px;
+}
+
+.designerText {
+  font-style: normal;
+  font-size: 170px;
+}
+
+.hero-headings {
+  font-size: 18px;
+}
+.hero-para {
+  font-size: 28px;
+}
+
+.profileImage {
+  width: 100%;
+}
+
+.aboutUsText p {
+  font-size: 30px;
+  color: #121212;
+  line-height: 55px;
+}
+
+.lookProject {
+  font-size: 24px;
+}
+
+.aboutMeHeading {
+  font-family: "Times New Roman";
+  font-size: 80px;
+}
+/* media queries  */
+.italicText {
+  font-style: italic;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+.headingText {
+  font-size: 40px;
+}
+
+.skillShow {
+  display: flex;
+  justify-content: space-between;
+}
+.points {
+  display: flex;
+  gap: 20px;
+}
+.point {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.pointActive {
+  background-color: #e5a426;
+}
+.experience-dates {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 5px;
+  color: #e5a426;
+  background-color: #fcf6e9;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  height: 50px;
+}
+
+/* footer  */
+
+.footerContent h4 {
+  font-size: 70px;
+  font-family: "Times New Roman";
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1500px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 680px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    max-width: 900px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heroText {
+    font-size: 35px;
+  }
+
+  .designerText {
+    font-size: 50px;
+  }
+
+  .hero-headings {
+    font-size: 16px;
+  }
+
+  .hero-para,
+  .lookProject,
+  .about-us-para-1 {
+    font-size: 20px;
+  }
+  .aboutUsText p {
+    font-size: 18px;
+    line-height: 38px;
+  }
+  .aboutMeHeading {
+    font-size: 60px;
+  }
+  .about-us-para-2,
+  .about-us-para-3,
+  .experienceContainer p,
+  .skillShow h4 {
+    font-size: 18px;
+  }
+  .skills-para {
+    font-size: 20px;
+  }
+  .point {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  .experienceContainer p {
+    margin-bottom: 50px !important;
+  }
+  .experienceDates {
+    justify-content: flex-start !important;
+    margin: 20px 0px !important;
+  }
+  .experience-desc ul {
+    padding-left: 0px !important;
+  }
+  .experience-desc ul li {
+    margin: 30px 0px !important;
+    font-size: 18px !important;
+  }
+  .footerContent h4 {
+    font-size: 50px;
+    padding-right: 10px;
+  }
+  .contactSection h5 {
+    margin: 30px 0px !important;
+  }
+  .socialIcons {
+    margin: 10px 0px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .socialIcons {
+    margin-top: 20px;
+  }
+  .heroText {
+    font-size: 50px;
+  }
+  .hero-para {
+    font-size: 22px;
+  }
+  .designerText {
+    font-size: 70px;
+  }
+
+  .hero-headings {
+    font-size: 16px;
+  }
+
+  .aboutUsText p {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .aboutMeHeading {
+    font-size: 60px;
+  }
+  .about-us-para-2,
+  .about-us-para-3,
+  .experienceContainer p,
+  .skillShow h4 {
+    font-size: 18px;
+  }
+  .skills-para {
+    font-size: 20px;
+  }
+  .point {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .experience-desc ul {
+    padding-left: 0px !important;
+  }
+}
+
+.back_to_top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  border-radius: 50%;
+  padding: 18px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.back_to_top:hover {
+  background-color: #e5a426;
+}
